@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="../CSS/ep6_style.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="../CSS/loginstyle.css" type="text/css">
+</head>
+
+<body>
+    <div id="page" class="container">
+        <header>
+            <nav>
+                <ul>
+                    <a href="index.html">Index Page</a>
+                    <a href="about.html">About Page</a>
+                    <a href="project_plan.html">Project Plan</a>
+                    <a href="logbook_spencer_cave.html">Spencer's Logbook</a>
+                    <a href="logbook_hunter_laverty.html">Hunter's Logbook</a>
+                    <a href="login.html">Login</a>
+                    <a href="request_access.html">Sign Up</a>
+                    <ul\>
+            </nav>
+        </header>
+        <article>
+            <div>
+                <form action="../PHP/login.php" method="post">
+                    <h1>Login</h1>
+                    <div class="rw">
+                        <label for="user" class="text_label">Username: </label>
+                        <input id="user" class="text_input" type="text" name="username" required/> </label>
+                    </div>
+                    <div class="rw">
+                        <label for="pass" class="text_label">Password: </label>
+                        <input id="pass" class="text_input" type="password" name="password" required/> </label>
+                    </div>
+                    <input type="image" alt="Alternative Log In" src="../images/login_button.png" width="100px" />
+                    <a class="rollover" id="req_acc" href="request_access.html"></a>
+                </form>
+            </div>
+        </article>
+        <footer>
+            <p id="footer"></p>
+        </footer>
+    </div>
+    <script src="../js/date.js"></script>
+</body>
+
+</html>

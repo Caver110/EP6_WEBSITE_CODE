@@ -1,0 +1,43 @@
+.done {
+    opacity: 10%;
+    text-decoration: line-through black;
+}
+
+table,
+th,
+td {
+    border: 2px solid;
+}
+
+#gantt_chart_sub {
+    font-style: italic;
+}
+
+.task {
+    text-align: center;
+    text-decoration: underline 2px;
+}
+
+#pi {
+    color: rgb(179, 24, 71);
+    text-decoration-color: chartreuse;
+}
+
+#pm {
+    color: rgb(33, 79, 206);
+    text-decoration-color: rgb(0, 1, 46);
+}
+
+#can_bus {
+    color: rgb(255, 208, 0);
+    text-decoration-color: rgb(247, 6, 255);
+}
+
+#website {
+    color: rgb(255, 123, 0);
+    text-decoration-color: rgb(6, 238, 255);
+}
+
+#horray {
+    color: darkmagenta;
+}

@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(11, 10, 15);
+    color: gray
+}
+
+h1 {
+    color: rgb(110, 74, 255)
+}
+
+h2 {
+    color: darkslateblue;
+}
+
+h3 {
+    color: rgb(50, 40, 92)
+}
+
+a:link {
+    color: rgb(149, 151, 151)
+}
+
+a:visited {
+    color: rgb(61, 141, 68)
+}
+
+a:hover {
+    color: rgb(76, 0, 255);
+    font-weight: bolder;
+}
+
+a:active {
+    color: blue;
+}
+
+li {
+    display: inline
+}
