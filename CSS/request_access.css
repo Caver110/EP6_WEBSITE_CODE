@@ -1,0 +1,50 @@
+body {
+    color: white;
+    background-color: black;
+}
+
+h1 {
+    margin: auto auto;
+}
+
+.text_label {
+    width: 100px;
+    text-align: left;
+    padding-right: 10px;
+}
+
+.input_text {
+    width: 100px;
+    padding-left: 25px;
+    /*Placed so the cursor will not start imediatly at input*/
+}
+
+input.submit {
+    font-size: xx-large;
+    border: dashed magenta 5px;
+    border-radius: 6px;
+    background-color: darkslategray;
+}
+
+input.submit:hover {
+    background-color: purple;
+    color: green;
+}
+
+input.submit:active {
+    background-color: orange;
+    color: blue;
+}
+
+input.submit:visited {
+    background-color: green;
+    color: red;
+}
+
+fieldset {
+    width: 500px;
+    margin: auto auto;
+    padding: auto auto;
+    box-shadow: 15px 15px 10px rgb(29, 179, 13);
+    border-radius: 20px;
+}

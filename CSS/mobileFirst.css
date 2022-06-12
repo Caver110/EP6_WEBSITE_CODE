@@ -1,0 +1,37 @@
+body{ 
+    background-color: white;
+}
+
+.text{
+    background-color: white;
+    border: 1px solid black;
+    text-align:center;
+}
+/*
+@media(min-width: 768px){
+    body{
+        background-color: red
+    }
+    #colour_Me{
+        color: aqua;
+    }
+}
+
+@media(min-width: 992px){
+    body{
+        background-color: green
+    }
+    #colour_Me{
+        text-size-adjust: 100px;
+    }
+}
+
+@media(min-width: 1200px){
+    body{
+        background-color: blue
+    }
+    #colour_Me{
+        padding-top: 500px;
+    }
+}
+*/

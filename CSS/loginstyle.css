@@ -1,0 +1,78 @@
+input {
+    width: 100px;
+    padding-left: 25px;
+    /*Placed so the cursor will not start imediatly at input*/
+}
+
+div.rw {
+    margin: 5px 0px;
+}
+
+.text_label {
+    float: left;
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+#req_acc {
+    margin: 50px 0px 0px 35px;
+}
+
+#user {
+    background-image: url("../Images/user.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+
+#pass {
+    background-image: url("../Images/lock.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+
+#sub {
+    width: 100px;
+    display: none;
+}
+
+#subbtn {
+    width: 150px;
+    float: right;
+    padding-left: 4px;
+}
+
+form {
+    width: 441px;
+    margin: 0px auto;
+}
+
+
+/* For Software Engineering Assignment*/
+
+.rollover {
+    width: 500px;
+    height: 500px;
+    background: url("../Images/access.webp");
+    background-position: center;
+    display: block;
+    background-repeat: no-repeat;
+}
+
+.rollover:hover {
+    width: 500px;
+    height: 500px;
+    background: url("../Images/Question.png");
+    background-position: center;
+    display: block;
+    background-repeat: no-repeat;
+}
+
+.rollover:active {
+    width: 500px;
+    height: 500px;
+    background: url("../Images/Confirm.png");
+    background-position: center;
+    display: block;
+    background-repeat: no-repeat;
+}
